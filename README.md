@@ -1,7 +1,7 @@
 # Project Title
 
 ## Project Description
-This is a full-stack web application consisting of a **Node.js backend** and a **React frontend**. The backend handles authentication, game management, and user records, while the frontend provides a user-friendly interface for interacting with these features.
+This is a Tic-Tac-Toe game consisting of a **Express.js backend** and a **React frontend**. The backend handles authentication, game management, and user records, while the frontend provides a user-friendly interface for playing the game.
 
 ## Setup Instructions
 

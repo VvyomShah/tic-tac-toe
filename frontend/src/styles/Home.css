@@ -1,0 +1,33 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.game-row {
+    display: contents;
+}
+
+.game-cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.winning-cell {
+    background-color: yellow;
+    /* Highlight winning cells */
+}
+
+.game-finish-message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
